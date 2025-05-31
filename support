@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Rationa</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #fff;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+        
+        h3 {
+            color: #2c3e50;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        
+        .app-intro {
+            background: linear-gradient(135deg, #f8f3e6 0%, #faf6ee 100%);
+            color: #5a5a5a;
+            border: 1px solid #e8dcc6;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .feature-section {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .step-guide {
+            background-color: #fff;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+        }
+        
+        .step-number {
+            background-color: #3498db;
+            color: white;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .tip-box {
+            background-color: #e8f4fd;
+            border: 1px solid #bee5eb;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 15px 0;
+        }
+        
+        .warning-box {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 15px 0;
+        }
+        
+        .contact-info {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        
+        ul, ol {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 8px;
+        }
+        
+        .quick-tips {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .tip-card {
+            background-color: #ffffff;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-intro">
+        <h1>💰 Welcome to Rationa</h1>
+        <p>Your personal finance companion that helps you track expenses, manage budgets, and achieve your financial goals!</p>
+    </div>
+
+    <h2>🚀 Getting Started with Rationa</h2>
+
+    <div class="feature-section">
+        <h3><span class="emoji">📝</span>How to Log Your First Expense</h3>
+        <div class="step-guide">
+            <p><span class="step-number">1</span>From the main screen, tap the blue <strong>"+ Log New Record"</strong> button</p>
+            <p><span class="step-number">2</span>Enter the amount you spent</p>
+            <p><span class="step-number">3</span>Add a description (e.g., "Coffee at Starbucks")</p>
+            <p><span class="step-number">4</span>Enter the location where you spent the money</p>
+            <p><span class="step-number">5</span>Set the date and time (defaults to now)</p>
+            <p><span class="step-number">6</span>Tap <strong>"Next"</strong> to select a category</p>
+            <p><span class="step-number">7</span>Choose the appropriate category (e.g., Food & Drinks, Transport)</p>
+            <p><span class="step-number">8</span>Tap <strong>"Save & Finish"</strong></p>
+        </div>
+        
+        <div class="tip-box">
+            <strong>💡 Pro Tip:</strong> Record expenses immediately after making them - this helps you stay accurate and builds a good habit!
+        </div>
+    </div>
+
+    <div class="feature-section">
+        <h3><span class="emoji">💳</span>Understanding Your Budget</h3>
+        <div class="step-guide">
+            <p>Your budget shows at the top of the main screen:</p>
+            <ul>
+                <li><strong>Total Budget:</strong> £4567.00 (your monthly limit)</li>
+                <li><strong>Used Amount:</strong> £2313.00 (what you've spent)</li>
+                <li><strong>Progress Bar:</strong> Blue bar shows 51% of budget used</li>
+                <li><strong>Top Categories:</strong> Shows your biggest spending areas</li>
+            </ul>
+        </div>
+        
+        <div class="tip-box">
+            <strong>💡 Budget Tip:</strong> When your progress bar turns red, you're approaching your budget limit!
+        </div>
+    </div>
+
+    <div class="feature-section">
+        <h3><span class="emoji">📊</span>Using Categories Effectively</h3>
+        <div class="step-guide">
+            <p>Rationa includes these pre-built categories:</p>
+            <div class="quick-tips">
+                <div class="tip-card">
+                    <strong>🍔 Food & Drinks</strong><br>
+                    Restaurants, cafés, bars
+                </div>
+                <div class="tip-card">
+                    <strong>🛒 Grocery</strong><br>
+                    Supermarket shopping
+                </div>
+                <div class="tip-card">
+                    <strong>🚗 Transport</strong><br>
+                    Uber, gas, public transport
+                </div>
+                <div class="tip-card">
+                    <strong>🛍️ Shopping</strong><br>
+                    Clothes, electronics, gifts
+                </div>
+                <div class="tip-card">
+                    <strong>🏠 Rent & Utilities</strong><br>
+                    Rent, electricity, internet
+                </div>
+                <div class="tip-card">
+                    <strong>📚 Tuition & Fees</strong><br>
+                    Education expenses
+                </div>
+                <div class="tip-card">
+                    <strong>📱 Phone & Internet</strong><br>
+                    Mobile bills, broadband
+                </div>
+                <div class="tip-card">
+                    <strong>💊 Healthcare</strong><br>
+                    Medical expenses
+                </div>
+                <div class="tip-card">
+                    <strong>🎬 Entertainment</strong><br>
+                    Movies, games, subscriptions
+                </div>
+                <div class="tip-card">
+                    <strong>✈️ Travel</strong><br>
+                    Flights, hotels, vacation
+                </div>
+                <div class="tip-card">
+                    <strong>🎁 Gifts & Donations</strong><br>
+                    Presents, charity
+                </div>
+                <div class="tip-card">
+                    <strong>☕ Café & Snacks</strong><br>
+                    Coffee shops, quick bites
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="feature-section">
+        <h3><span class="emoji">💰</span>How to Use Saving Plans</h3>
+        <div class="step-guide">
+            <p><span class="step-number">1</span>Tap the <strong>"💰 Saving Plan"</strong> button at the bottom</p>
+            <p><span class="step-number">2</span>Tap <strong>"+ Add New Saving Plan"</strong></p>
+            <p><span class="step-number">3</span>Set your goal (e.g., "Trip to Paris - Save £800")</p>
+            <p><span class="step-number">4</span>Add money to your plan by entering amounts in the "Add £..." field</p>
+            <p><span class="step-number">5</span>Track your progress with the percentage bar</p>
+            <p><span class="step-number">6</span>Add notes about where the money came from</p>
+        </div>
+        
+        <div class="tip-box">
+            <strong>🎯 Saving Tip:</strong> Set up automatic weekly savings! Even £20/week adds up to over £1000 per year.
+        </div>
+    </div>
+
+    <div class="feature-section">
+        <h3><span class="emoji">📈</span>Analyzing Your Spending Trends</h3>
+        <div class="step-guide">
+            <p><span class="step-number">1</span>Tap <strong>"📊 Explore Trends"</strong> at the bottom</p>
+            <p><span class="step-number">2</span>Choose your time period: Daily, Weekly, Monthly, or Yearly</p>
+            <p><span class="step-number">3</span>View your spending graph to see patterns</p>
+            <p><span class="step-number">4</span>Use the date selector to compare different periods</p>
+            <p><span class="step-number">5</span>Switch between Bar Chart and Percentage views</p>
+        </div>
+        
+        <div class="warning-box">
+            <strong>⚠️ Watch for Spikes:</strong> If you see sudden spending increases, review what happened that month to avoid repeating it.
+        </div>
+    </div>
+
+    <div class="feature-section">
+        <h3><span class="emoji">📝</span>Using Notes for Financial Planning</h3>
+        <div class="step-guide">
+            <p><span class="step-number">1</span>Tap <strong>"📝 Notes"</strong> to access your financial notes</p>
+            <p><span class="step-number">2</span>Tap <strong>"Add New Note"</strong> to create reminders</p>
+            <p><span class="step-number">3</span>Use tags to organize notes (e.g., #budget, #goals, #ideas)</p>
+            <p><span class="step-number">4</span>Search notes by tag using the search bar</p>
+        </div>
+        
+        <div class="tip-box">
+            <strong>💡 Note Ideas:</strong> Use notes to record financial goals, track irregular expenses, or remind yourself of spending rules.
+        </div>
+    </div>
+
+    <h2>📅 Daily/Weekly/Monthly Views</h2>
+    <div class="step-guide">
+        <p>Switch between time periods using the tabs at the top:</p>
+        <ul>
+            <li><strong>Day View:</strong> See today's expenses with timestamps</li>
+            <li><strong>Week View:</strong> Compare daily spending across the week</li>
+            <li><strong>Month View:</strong> Track monthly totals and budget progress</li>
+        </ul>
+        <p>Each view shows total spending for that period, helping you understand your patterns.</p>
+    </div>
+
+    <h2>🔧 Troubleshooting Common Issues</h2>
+
+    <div class="step-guide">
+        <h3>Problem: Can't find a transaction</h3>
+        <ul>
+            <li>Check if you're in the right time view (Day/Week/Month)</li>
+            <li>Look for the transaction in a different category</li>
+            <li>Use the trash icon to check deleted items</li>
+        </ul>
+    </div>
+
+    <div class="step-guide">
+        <h3>Problem: Budget percentage seems wrong</h3>
+        <ul>
+            <li>Make sure you've set your correct monthly budget</li>
+            <li>Check that all transactions are in the right month</li>
+            <li>The percentage resets each month</li>
+        </ul>
+    </div>
+
+    <div class="step-guide">
+        <h3>Problem: Saving plan not updating</h3>
+        <ul>
+            <li>Make sure to tap "Save" after adding money</li>
+            <li>Check that you entered the amount correctly</li>
+            <li>Progress updates immediately after saving</li>
+        </ul>
+    </div>
+
+    <h2>💡 Best Practices for Success</h2>
+
+    <div class="quick-tips">
+        <div class="tip-card">
+            <strong>📱 Record Immediately</strong><br>
+            Log expenses right after making them
+        </div>
+        <div class="tip-card">
+            <strong>🔍 Review Weekly</strong><br>
+            Check your spending patterns every week
+        </div>
+        <div class="tip-card">
+            <strong>🎯 Set Realistic Budgets</strong><br>
+            Base budgets on actual past spending
+        </div>
+        <div class="tip-card">
+            <strong>📊 Use Categories Consistently</strong><br>
+            Always put similar expenses in the same category
+        </div>
+        <div class="tip-card">
+            <strong>💰 Save First</strong><br>
+            Add to savings plans before spending
+        </div>
+        <div class="tip-card">
+            <strong>📝 Take Notes</strong><br>
+            Record financial insights and goals
+        </div>
+    </div>
+
+    <div class="contact-info">
+        <h2>🆘 Still Need Help?</h2>
+        <p>We're here to support you on your financial journey!</p>
+        <ul>
+            <li><strong>Email Support:</strong> support@rationa.app</li>
+            <li><strong>In-App Support:</strong> Use the "Contact Support" feature in Settings</li>
+            <li><strong>Response Time:</strong> Within 24 hours</li>
+        </ul>
+        
+        <div class="tip-box">
+            <strong>📧 When contacting us, include:</strong>
+            <ul>
+                <li>Your device model and iOS version</li>
+                <li>What you were trying to do</li>
+                <li>Screenshots if helpful</li>
+                <li>Error messages if any appeared</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="app-intro" style="margin-top: 30px;">
+        <h3>🎉 You're Ready to Take Control!</h3>
+        <p>With these tools and tips, you're well-equipped to manage your finances effectively with Rationa. Remember, the key to financial success is consistency - keep tracking, keep saving, and keep improving!</p>
+    </div>
+</body>
+</html>
